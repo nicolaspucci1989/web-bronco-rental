@@ -1,0 +1,1 @@
+function lim_txtarea(a,e){a.value.length>=e&&(a.value=a.value.substring(0,e))}

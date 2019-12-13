@@ -1,0 +1,627 @@
+﻿@font-face {
+    font-family: 'Interstate-ExtraLight';
+    src: url("../fonts/Interstate-ExtraLight-6efb27e5.eot") format("eot"), url("../fonts/Interstate-ExtraLight-220aac54.otf.odft") format("opentype"), url("../fonts/Interstate-ExtraLight-c9c99c37.woff") format("woff"), url("../fonts/Interstate-ExtraLight-ca8891ec.ttf") format("truetype"), url("../fonts/Interstate-ExtraLight-e0876733.svg") format("svg")
+}
+
+@font-face {
+    font-family: 'Righteous-Regular';
+    src: url("../fonts/Righteous-Regular-33d5b7da.eot") format("eot"), url("../fonts/Righteous-Regular-5a0fcfab.woff") format("woff"), url("../fonts/Righteous-Regular-6d82a28d.ttf") format("truetype"), url("../fonts/Righteous-Regular-f9167b05.svg") format("svg")
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 19px;
+    color: #7f7e7e;
+    background-color: #FFFFFF
+}
+
+a {
+    text-decoration: none
+}
+
+.titPrincipales {
+    font-family: 'Righteous-Regular';
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 38px;
+    text-decoration: none;
+    color: #058ae7;
+    padding: 10px 0px
+}
+
+.subTitChico {
+    color: #025d9d;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 18px;
+    padding: 5px 0px
+}
+
+.colMedia {
+    width: 456px;
+    padding: 10px
+}
+
+.colGrande {
+    width: 940px;
+    padding: 10px
+}
+
+.clear {
+    clear: both
+}
+
+.spacer5 {
+    height: 5px;
+    clear: both
+}
+
+.spacer10 {
+    height: 10px;
+    clear: both
+}
+
+.spacer15 {
+    height: 15px;
+    clear: both
+}
+
+.spacer20 {
+    height: 20px;
+    clear: both
+}
+
+.spacer30 {
+    height: 30px;
+    clear: both
+}
+
+.spacer40 {
+    height: 40px;
+    clear: both
+}
+
+.spacer60 {
+    height: 60px;
+    clear: both
+}
+
+.derecha {
+    float: right
+}
+
+.izquierda {
+    float: left
+}
+
+#cuerpo {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0px 0px
+}
+
+#fondo_cuerpo {
+    margin: 0;
+    background-color: #ffffff
+}
+
+.contenedor {
+    width: 960px;
+    margin: 0px auto;
+    padding: 0px 10px
+}
+
+#header {
+    height: 485px
+}
+
+#logoHeader {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    float: left
+}
+
+#logoHeader a {
+    display: block;
+    width: 249px;
+    height: 76px
+}
+
+#fondoHeader {
+    background-image: url(../images/header_img-ae3ebd59.jpg);
+    background-repeat: no-repeat;
+    background-position: center 85px;
+    height: 400px
+}
+
+#menuPrincipal {
+    float: right;
+    position: relative;
+    top: 27px;
+    right: 0px
+}
+
+.btnMP {
+    float: left;
+    margin-right: 2px;
+    font-size: 14px;
+    text-align: center
+}
+
+.btnMP a {
+    display: block;
+    padding: 6px 16px;
+    font-family: 'Interstate-ExtraLight';
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #575757;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    -ms-transition: background-color 300ms ease-out;
+    -o-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out
+}
+
+.btnMP a:hover {
+    background-color: #058ae7;
+    color: #fff
+}
+
+.btnMP_selec {
+    background-color: #058ae7 !important;
+    color: #fff !important
+}
+
+.puntoHeader {
+    float: left;
+    background-image: url(../images/puntito_menu-da17cd6e.jpg);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 5px;
+    margin: 13px 3px 13px 3px
+}
+
+#footer {
+    background-image: url(../images/pie_bg-886eaffb.jpg);
+    background-repeat: repeat-x;
+    height: 357px
+}
+
+.btn_facebook {
+    margin-top: 52px;
+    margin-left: 7px;
+    float: left;
+    width: 26px;
+    height: 26px;
+    background-image: url(../images/social_facebook_btn-579783f0.png);
+    background-position: 0px 0px;
+    cursor: pointer
+}
+
+.btn_facebook:hover {
+    background-position: 0px 26px
+}
+
+.btn_facebook a {
+    display: block;
+    width: 26px;
+    height: 26px
+}
+
+.btn_twitter {
+    margin-top: 52px;
+    margin-left: 17px;
+    float: left;
+    width: 26px;
+    height: 26px;
+    background-image: url(../images/social_twitter_btn-9ef9ca36.png);
+    background-position: 0px 0px;
+    cursor: pointer
+}
+
+.btn_twitter:hover {
+    background-position: 0px 26px
+}
+
+.btn_twitter a {
+    display: block;
+    width: 26px;
+    height: 26px
+}
+
+#textoFooter {
+    background-image: url(../images/pie_contenido-9caa38a3.png);
+    background-repeat: no-repeat;
+    background-size: 960px 116px;
+    background-position: 0px 95px;
+    height: 229px
+}
+
+#textoFooter div {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    font-family: 'Interstate-ExtraLight';
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 17px;
+    font-size: 13px;
+    color: #dadada
+}
+
+#accesosFooter {
+    height: 128px
+}
+
+.accFooter {
+    padding: 56px 20px 0px 10px;
+    font-family: 'Interstate-ExtraLight';
+    letter-spacing: 1px
+}
+
+.accFooter a {
+    color: #363636;
+    font-size: 14px;
+    -webkit-transition: color 300ms ease-out;
+    -moz-transition: color 300ms ease-out;
+    -ms-transition: color 300ms ease-out;
+    -o-transition: color 300ms ease-out;
+    transition: color 300ms ease-out
+}
+
+.accFooter a:hover {
+    color: #058ae7
+}
+
+.recPorque {
+    float: left;
+    padding: 15px 0px
+}
+
+.txtPorque {
+    float: left;
+    width: 390px;
+    color: #7b7b7b;
+    font: Helvetica;
+    font-size: 11px
+}
+
+.logoPorque {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 44px 44px;
+    width: 44px;
+    height: 44px;
+    margin-right: 15px
+}
+
+.img1 {
+    background-image: url(../images/porque_2-757fd09d.png)
+}
+
+.img2 {
+    background-image: url(../images/porque_1-4ce0d28d.png)
+}
+
+.img3 {
+    background-image: url(../images/porque_4-7f7b1cfc.png)
+}
+
+.imgServSomTop {
+    background-image: url(../images/servicios_sombra_top-05c5b556.jpg);
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 940px
+}
+
+.imgServSomBottom {
+    background-image: url(../images/servicios_sombra_bottom-17b620aa.jpg);
+    background-repeat: no-repeat;
+    height: 98px;
+    width: 940px
+}
+
+.recServicio {
+    float: left;
+    padding: 15px 0px
+}
+
+.txtServicio {
+    float: left;
+    width: 500px;
+    color: #7b7b7b;
+    font: Helvetica;
+    font-size: 11px
+}
+
+.logoServicio {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+    margin-top: -4px;
+    margin-right: 15px
+}
+
+.img4 {
+    background-image: url(../images/serv_bullet1-97782ae7.png)
+}
+
+.img5 {
+    background-image: url(../images/serv_bullet2-8c36c4f0.png)
+}
+
+.img6 {
+    background-image: url(../images/serv_bullet3-693c4c5f.png)
+}
+
+.img7 {
+    background-image: url(../images/serv_bullet4-bace6ac2.png)
+}
+
+.btnDescargaServ {
+    margin-top: 30px;
+    margin-right: 40px;
+    float: right;
+    width: 188px;
+    height: 39px;
+    background-image: url(../images/servicios_boton_download-366fb4d7.jpg);
+    background-position: 0px 0px;
+    cursor: pointer
+}
+
+.btnDescargaServ:hover {
+    background-position: 0px 39px
+}
+
+.btnDescargaServ a {
+    display: block;
+    width: 188px;
+    height: 39px
+}
+
+.ubiServDescarga {
+    width: 600px;
+    float: left;
+    margin-top: 26px;
+    margin-left: 40px
+}
+
+.imgServDescarga {
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px
+}
+
+.imgProdSomTop {
+    background-image: url(../images/productos_sombra_superior-05c5b556.jpg);
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 940px
+}
+
+.imgProdSomBottom {
+    background-image: url(../images/productos_sombra_inferior-6d24a3d3.jpg);
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 940px
+}
+
+.prod_1 {
+    margin-top: 10px;
+    background-image: url(../images/productos_img_camaras-ce5b4aed.jpg);
+    background-repeat: no-repeat;
+    background-size: 523px 230px;
+    height: 230px
+}
+
+.prod_2 {
+    background-image: url(../images/productos_compuesto-30b9c2cf.jpg);
+    background-repeat: no-repeat;
+    background-size: 940px 240px;
+    width: 940px;
+    height: 240px
+}
+
+.prod_3 {
+    background-image: url(../images/productos_img_luces-7d13dbb3.jpg);
+    background-repeat: no-repeat;
+    background-size: 357px 237px;
+    height: 237px
+}
+
+.recProdInfo {
+    width: 400px;
+    height: 210px
+}
+
+.titProdGrande {
+    font-family: 'Interstate-ExtraLight';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 48px;
+    color: #058ae7;
+    text-align: center
+}
+
+.txtProdInfo {
+    padding: 10px 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    text-align: center;
+    color: #878f9c
+}
+
+.btnEnviar {
+    margin-top: 0px;
+    margin-right: 20px;
+    float: right;
+    width: 112px;
+    height: 39px;
+    background-image: url(../images/contacto_btn_enviar-51271f33.png);
+    background-position: 0px 0px;
+    cursor: pointer;
+    border: 0px
+}
+
+.btnEnviar:hover {
+    background-position: 0px 39px
+}
+
+.txtContacto {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    text-align: left;
+    color: #454545;
+    margin-top: 5px
+}
+
+.txtContactoVerde {
+    color: #1f8594 !important
+}
+
+.obliga {
+    float: left
+}
+
+#msgAccion {
+    float: left;
+    position: relative;
+    top: 13px;
+    left: 280px
+}
+
+.contacto .col {
+    float: left
+}
+
+.contacto .col .googleMap {
+    width: 460px;
+    height: 300px;
+    margin: 0px;
+    -webkit-box-shadow: 0px 0px 4px #666666;
+    -moz-box-shadow: 0px 0px 4px #666666;
+    box-shadow: 0px 0px 4px #666666
+}
+
+.contacto .col .colMapa {
+    float: left;
+    margin-top: 10px;
+    line-height: 15px;
+    font-size: 11px
+}
+
+.contacto .col .colMapa2 {
+    float: left;
+    width: 240px;
+    margin-top: 10px;
+    line-height: 15px;
+    font-size: 11px
+}
+
+.contacto .col .colMapa2 a {
+    color: #25a5e2
+}
+
+.contacto .col .colMapa2 a:hover {
+    color: #373737
+}
+
+.contacto .col .colMapa3 {
+    float: left;
+    width: 1px;
+    height: 134px;
+    margin: 10px 20px 0px 20px;
+    background-color: #ccc
+}
+
+#formContacto {
+    float: left;
+    width: 440px;
+    margin: 0px;
+    padding: 0px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px
+}
+
+.formContacto_renglon {
+    clear: both;
+    margin: 7px 0px
+}
+
+form label,
+form input,
+form textarea,
+form input {
+    float: left;
+    clear: both;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 14px
+}
+
+form input.big,
+form select.big,
+form textarea.big {
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: normal;
+    border: none;
+    padding: 15px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #474747;
+    color: #aaa7a7;
+    width: 390px;
+    font-family: Helvetica
+}
+
+form textarea.big {
+    height: 100px;
+    font-family: Helvetica
+}
+
+form label.error {
+    display: none;
+    color: #F00;
+    margin-bottom: 10px
+}
+
+.exito {
+    font-size: 12px;
+    font-weight: bold;
+    color: #090
+}
+
+.error {
+    font-size: 12px;
+    font-weight: bold;
+    color: #F00
+}
+
+.resaltado {
+    font-size: 20px
+}
